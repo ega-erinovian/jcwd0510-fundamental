@@ -1,0 +1,33 @@
+## CONDITIONS
+ # IF STATEMENT
+  - Hanya menerima kondisi dengan tipe data boolean (true/false).
+ 
+ # ELSE STATEMENT
+  - Berfungsi sebagai backup plan dari if, jika kondisi sebelum else (if/else if) tidak terpenuhi (false).
+ 
+ # ELSE IF STATEMENT
+  - Berfungsi untuk memberikan beberapa kondisi pada sebuah condition. Bisa dilakukan secara chaining (banyak else if) setelah if dan sebelum else.
+ 
+ # LOGICAL OPERATOR
+  - Ada 3 logical operator yaitu: && (and), || (or), dan ! (not)
+  - Pada operator && (and) kedua kondisi harus bernilai true agar menghasilkan nilai true, sedangkan operator || (or) cukup salah satu saja yang bernilai true untuk menghasilkan true.
+  - ! (not) digunakan untuk membalikan nilai boolean.
+ 
+# TERNARY OPERATOR -> shortcut untuk if else condition dan else if, tetapi khusus untuk else if tidak disarankan karena kesulitan untuk dibaca ketika sudah chaining banyak.
+
+## LOOP STATEMENT
+ - rangkaian instruksi yang dilakukan berulangkali hingga kondisinya tidak terpenuhi
+ - Beberapa tipe loop: for loop, whule loop, dan do while loop
+
+ # WHILE & DO WHILE LOOP (Ditanyakan di selection test)
+   - Perbedaan dari keduanya adalah: WHILE LOOP mengecek kondisinya dahulu baru code didalam blocknya dijalankan jika kondisi terpenuhi (true), sedangkan DO WHILE akan melakukan code didalam blocknya sekali baru dicek kondisinya dan menjalankan kembali code didalam block jika kondisi terpenuhi (true).
+
+ # BREAK -> digunakan untuk menghentikan loop
+
+ # CONTINUE -> digunakan untuk melakukan skip pada kondisi tertentu dalam looping
+
+## Short-Circuiting
+ # && Operator
+  - jika bernilai false maka akan mengembalikan statement pertama (kiri), jika bernilai true maka akan mengembalikan statement kanan.
+ # || Operator
+  - jika bernilai true maka akan mengembalikan statement pertama (kiri), jika bernilai false maka akan mengembalikan statement kanan.

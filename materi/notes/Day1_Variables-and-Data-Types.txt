@@ -1,0 +1,37 @@
+## JAVASCRIPT
+# Cara menjalankan js gunakan 'node nama_file' di terminal.
+# Variable:
+  1. var merupakan global scope variable, tetapi sudah tidak digunakan lagi karena kita dapat
+    mendeklarasikan 2 variable dengan nama yang sama tanpa error.
+  2. let adalah scoped variable yang dapat direassign (diubah nilainya, bukan hardcoded)
+  3. const adalah scoped variable yang tidak dapat direassign
+
+  Tips: biasakan gunakan const kecuali ada case tertentu dalam penggunaan let.
+
+# Penamaan variable:
+  1. Must contain only letters, digits, or symbol '$' and '_'
+  2. the first char must not digit
+  3. case sensitive (person and Person is different variable)
+
+# (*) DATA TYPES
+  a. Primitive data types -> Tipe data primitif hanya dapat menyimpan satu nilai pada satu waktu dan tidak dapat diubah menggunakan cara yang sama seperti tipe data non-primitif. Tipe data Primitif akan dianggap sama jika nilainya sama.
+    - string -> "string" or 'string' or "100"
+    - number -> 1 or 20 or 100
+    - boolean -> true or false
+    - null -> variabel memiliki nilai tapi kosong atau tidak ada.
+    - undefined -> variabel tersebut sudah dideklarasi, tapi belum didefinisikan (belum diberi nilai).
+  b. Non-primitive -> Tipe data non-primitif dapat menyimpan lebih dari satu nilai pada satu waktu dan dapat diubah. Tipe data non-primitif akan dianggap berbeda meskipun nilainya sama dan dalam urutan yang sama. yaitu object dan array
+
+## TYPESCRIPT
+  # String built-in method -> fungsi bawaan milik ts/js yang bisa digunakan untuk manipulasi string
+    dokumentasi ada di: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
+    - Yang sering digunakan: toLowerCase, toUpperCase, replace, replaceAll (butuh setting config ke ES2021)
+  # Number built-in method -> fungsi bawaan milik ts/js yang bisa digunakan untuk manipulasi number
+    dokumentasi ada di: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#static_methods
+
+TODO:
+1. Pelajari kembali materi
+  1.1 Cari tahu definisi dari primitive dan non-primitive data types ✅
+2. Praktekan kembali materi
+3. Pelajari materi untuk day 2
+  
