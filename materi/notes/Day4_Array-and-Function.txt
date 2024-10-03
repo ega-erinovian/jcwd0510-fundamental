@@ -1,0 +1,10 @@
+## ARRAY
+ - Koleksi atau sekumpulan data dengan tipe data yang sama, dan dapat diakses dengan indexnya.
+
+## FUNCTION
+ - Sebuah blok kode yang dapat digunakan berulang kali untuk melakukan sebuah task.
+ - sederhananya function adalah "subprogram" yang dapat digunakan dengan dipanggil dicode lain
+ - Sebuah value dapat di kirim ke sebuah fungsi, dan fungsi dapat mengembalikan nilai.
+
+ # FUNCTION DECLARATION
+ 
