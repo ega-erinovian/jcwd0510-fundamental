@@ -1,10 +1,31 @@
 ## ARRAY
- - Koleksi atau sekumpulan data dengan tipe data yang sama, dan dapat diakses dengan indexnya.
+ - Koleksi atau sekumpulan data dengan tipe data yang sama (walaupun bisa berbeda-beda dalam 1 array tapi tidak disarankan), dan dapat diakses dengan indexnya.
+ - Array bisa juga berisi array disebut array 2 dimensi.
+
+## FOR OF
+ - Cara sederhana dari FOR LOOP ketika pemanggilan data dari array tidak perlu menggunakan index.
 
 ## FUNCTION
  - Sebuah blok kode yang dapat digunakan berulang kali untuk melakukan sebuah task.
- - sederhananya function adalah "subprogram" yang dapat digunakan dengan dipanggil dicode lain
+ - sederhananya function adalah "subprogram" yang dapat digunakan dengan dipanggil dicode/line lain
  - Sebuah value dapat di kirim ke sebuah fungsi, dan fungsi dapat mengembalikan nilai.
+ - function hanya dapat melakukan return sekali.
 
  # FUNCTION DECLARATION
- 
+  - parameter adalah variable yang mewakili value dari argumen yang dimasukkkan.
+  - argumen adalah value yang dimasukkan (passing) saat pemanggilan function.
+
+ # FUNCTION EXPRESSION
+  - Penulisan yang berbeda dalam deklarasi function, tetapi memiliki turunan yaitu arrow function.
+
+ # FUNCTION SCOPE
+  - variable yang di define didalam function hanya bisa diakses didalam function tersebut
+
+ # REST PARAMETER
+  - mewakili sisa argumen ke dalam 1 variable parameter
+
+ # CLOSURE
+  - inner function selalu mempunyai akses ke variable dan parameter dari outer function, bahkan setelah function tsb di return
+
+ # RECURSIVE
+  - fungsi yang memanggil dirinya sendiri
