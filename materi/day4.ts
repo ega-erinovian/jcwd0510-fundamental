@@ -303,8 +303,3 @@ console.log(result8);
 // INCLUDES -> mengecek value pada array ada apa tidak dengan hasil return adalah boolean
 const cars6: string[] = ["911", "Skyline", "GT-R", "RX-8", "RX-7"];
 console.log(cars6.includes("GT-R"));
-
-
-
-
-
