@@ -3,5 +3,6 @@
         "target": "ES2021",
         // typescript tidak bisa langsung dijalankan oleh node, harus di compile menjadi js dengan mengetik 'tsc' di terminal
         "outDir": "./dist",
+        "moduleDetection": "force",
     }
 }
