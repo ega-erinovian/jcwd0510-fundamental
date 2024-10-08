@@ -1,0 +1,27 @@
+## OBJECT
+ # IMMUTABLE & MUTABLE
+  - Mutable adalah variabel yang bisa diubah datanya (Primitive Data Types)
+  - Immutable adalah object yang tidak bisa diubah saat sudah dibuat (Non-Primitive Data Types)
+
+ # OPTIONAL CHAINING
+  - Cara aman untuk mengakses sebuah object ketika tidak tau apa isi object tersebut
+
+## CLASS
+ - Template / Cetakan (blueprint) untuk membuat sebuah object
+ - Penulisan nama class harus menggunakan PascalCase
+
+ # Constructor
+  - Method bawaan dari class yang akan dijalankan pertama kali saat membuat object menggunakan template class
+
+ # Setter & Getter
+  - Set: digunakan untuk mengeset value didalam sebuah object
+   - berguna ketika ingin memvalidasi data atau menambahkan logika sebelum menetapkan nilai ke property
+  - Get: digunakan untuk membaca (mendapatkan) data
+   - Berguna ketika ingin mendapatkan nilai propety, tapi ingin menambahkan logika
+ 
+ # Encapsulation
+  - konsep OOP untuk nge-bundle data dalam 1 unit. Contohnya adalah class dan object.
+ 
+ # Inheritance
+  - Pewarisan dari parent class ke child class. 
+  - Property dan method dari parent class bisa diakses oleh child class.
