@@ -141,18 +141,18 @@ function findDuplicates2(numbers: number[]) {
 console.log(findDuplicates2([1, 2, 2, 2, 3, 3, 4, 5, 5]));
 
 // 10
-// function removeContain(numbers1: number[], numbers2: number[]) {
-//   let contained: number[] = [];
-//   for (let i = 0; i < numbers1.length; i++) {
-//     for (let j = 0; j < numbers2.length; j++) {
-//       if (numbers1[i] === numbers2[j]) {
-//         contained.push(numbers1[i]);
-//       }
-//     }
-//   }
+function removeContain(numbers1: number[], numbers2: number[]) {
+  let contained: number[] = [];
+  for (let i = 0; i < numbers1.length; i++) {
+    for (let j = 0; j < numbers2.length; j++) {
+      if (numbers1[i] === numbers2[j]) {
+        contained.push(numbers1[i]);
+      }
+    }
+  }
 
-//   return contained;
-// }
+  return contained;
+}
 
 // console.log(removeContain([1, 4, 5, 7, 9, 10], [4, 1, 6, 8]));
 

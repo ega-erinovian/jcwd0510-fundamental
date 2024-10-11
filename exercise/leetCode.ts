@@ -1,22 +1,10 @@
-type Counter = {
-  increment: () => number;
-  decrement: () => number;
-  reset: () => number;
-};
+function findWordsContaining(words: string[], x: string): number[] {
+  const indexFound: number[] = [];
+  words.forEach((word, index) => {
+    if(word.includes(x)) indexFound.push(index);
+  });
 
-function createCounter(init: number): Counter {
-  const increment = () => {
-    init++;
-    return init;
-  }
+  return indexFound;
 }
 
-/**
- * const counter = createCounter(5)
- * counter.increment(); // 6
- * counter.reset(); // 5
- * counter.decrement(); // 4
- */
-
-const counter = createCounter(5);
-counter.increment();
+console.log(findWordsContaining(["abc","bcd","aaaa","cbc"], "a"));
