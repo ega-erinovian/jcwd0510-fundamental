@@ -1,0 +1,4 @@
+## HASH TABLES/MAPS
+# COLLISIONS -> Data menghasilkan index yang sama
+ # Linear Probing -> elemen dengan hasil index yang sama/terpakai maka akan digeser ke index selanjutnya hingga menemukan yang kosong.
+ # Chaining -> elemen-elemen dengan hasil yang sama maka akan dimasukkan ke 1 index sebagai linked list.

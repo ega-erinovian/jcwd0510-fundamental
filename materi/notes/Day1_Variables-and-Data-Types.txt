@@ -28,10 +28,4 @@
     - Yang sering digunakan: toLowerCase, toUpperCase, replace, replaceAll (butuh setting config ke ES2021)
   # Number built-in method -> fungsi bawaan milik ts/js yang bisa digunakan untuk manipulasi number
     dokumentasi ada di: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#static_methods
-
-TODO:
-1. Pelajari kembali materi
-  1.1 Cari tahu definisi dari primitive dan non-primitive data types ✅
-2. Praktekan kembali materi
-3. Pelajari materi untuk day 2
   

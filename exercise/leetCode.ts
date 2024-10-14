@@ -1,10 +1,14 @@
-function findWordsContaining(words: string[], x: string): number[] {
-  const indexFound: number[] = [];
-  words.forEach((word, index) => {
-    if(word.includes(x)) indexFound.push(index);
+function twoSum(numbers: number[], target: number): number[] {
+  let indexes: number[] = [];
+  numbers.forEach((number, index) => {
+    for(let i = index + 1; i < numbers.length; i++){
+        if((number + numbers[i]) === target){
+            indexes = [index+1, i+1];
+        }
+    }
   });
 
-  return indexFound;
+  return indexes;
 }
 
-console.log(findWordsContaining(["abc","bcd","aaaa","cbc"], "a"));
+console.log(twoSum([2,7,11,15], 9));
