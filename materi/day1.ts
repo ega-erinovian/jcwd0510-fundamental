@@ -5,7 +5,7 @@
 const message: string = "Hello World";
 // ! const message: string = 100; -> Error
 
-// *===== STRING BUILT-IN METHOD 
+// *===== STRING BUILT-IN METHOD
 const orang: string = "Siregar";
 const orang2: string = "Budiono";
 
@@ -18,11 +18,11 @@ const orangUpperCase: string = orang.toUpperCase();
 console.log(orangUpperCase);
 
 // replace()
-const orangReplaced: string = orang.replace('r', 'l'); // akan mengubah char/string pertama yang dia temukan
+const orangReplaced: string = orang.replace("r", "l"); // akan mengubah char/string pertama yang dia temukan
 console.log(orangReplaced);
 
 // replaceAll() -> butuh setting config
-const orangReplacedAll: string = orang.replaceAll('r', 'l'); // akan mengubah semua char/string yang dia temukan
+const orangReplacedAll: string = orang.replaceAll("r", "l"); // akan mengubah semua char/string yang dia temukan
 console.log(orangReplacedAll);
 
 // split() -> memisahkan string berdasarkan delimiter dalam argumen sebagai array
@@ -167,4 +167,10 @@ console.log(Math.abs(-10));
 // Math random -> Mengembalikan angka acak antara 0 dan 1
 console.log(Math.random());
 
+function func() {
+  let v = 0;
+  console.log(v);
+}
+
+console.log(v);
 

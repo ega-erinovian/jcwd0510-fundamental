@@ -30,6 +30,8 @@ console.log(boolean);
 console.log(noData);
 console.log(notAssigned);
 
+console.log(angka1);
+var angka1 = 1;
 
 
 
